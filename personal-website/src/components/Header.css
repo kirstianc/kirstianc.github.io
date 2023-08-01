@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+ul.menu-open {
+    display: block;
+    opacity: 1;
+}
+
+li {
+    padding: 0.05rem;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
