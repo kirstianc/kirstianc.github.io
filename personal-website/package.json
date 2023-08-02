@@ -1,8 +1,8 @@
 {
-  "name": "personal-website",
-  "version": "0.1.0",
+  "name": "Ian Chavez, Computer Science major",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://kirstianc.github.io/personal-website/",
+  "homepage": "https://kirstianc.github.io/Home/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

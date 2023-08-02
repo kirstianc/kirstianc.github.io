@@ -7,6 +7,7 @@ header {
 }
 
 nav {
+    position: sticky;
     display: flex;
     align-items: center;
 }
@@ -21,20 +22,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
+h1 a {
+    text-decoration: none;
+    color: black;
+}
 
 ul {
+    font-size: larger;
+}
+
+.header_ul {
+    padding-top: 15px;
     list-style: none;
     opacity: 0;
     transition: 0.3s;
 }
 
-ul.menu-open {
-    display: block;
+.header_ul.menu-open {
     opacity: 1;
-}
-
-li {
-    padding: 0.05rem;
 }
 
 button {

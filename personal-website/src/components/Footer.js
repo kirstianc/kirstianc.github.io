@@ -1,14 +1,17 @@
 import React from 'react';
 import './Footer.css';
+import '../styles.css';
 
 const Footer = () => {
     return (
         <footer>
             <div>
-                <li><a href="/contact-info">Contact Information</a></li>
-                <li><a href="/linkedin">LinkedIn</a></li>
-                <li><a href="/instagram">Instagram</a></li>
-                <li><a href="/email-form">Email Form</a></li>
+                <nav>
+                    <ul>
+                        <li><a href="/Contact">Contact Information</a></li>
+                        <li><a href="https://www.linkedin.com/in/kirstian-chavez/">LinkedIn</a></li>
+                    </ul>
+                </nav>
             </div>
         </footer>
     );
