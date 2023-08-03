@@ -34,6 +34,7 @@ const Projects = () => {
 
     return (
         <div>
+            <title>My Projects</title>
             <h2>Project Links:</h2>
             <ButtonList projects={projects} />
         </div>
