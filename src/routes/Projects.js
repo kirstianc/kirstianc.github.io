@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonList from './ButtonList';
+import ButtonList from '../components/ButtonList';
 import projBlankImage from '../assets/images/gray.png'
 import proj1Image from '../assets/images/fillboard.png'
 import proj2Image from '../assets/images/ultra_jump_mania.png'

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45067d33.css",
+    "main.js": "/static/js/main.9120d8e2.js",
+    "static/media/fillboard.png": "/static/media/fillboard.032aaee132baf10f813c.png",
+    "static/media/ian_flower.jpg": "/static/media/ian_flower.d20cb6cf212838e7e503.jpg",
+    "static/media/gray.png": "/static/media/gray.c5496dee2014b3768cb1.png",
+    "static/media/ultra_jump_mania.png": "/static/media/ultra_jump_mania.e7970f07fe184675eb7a.png",
+    "index.html": "/index.html",
+    "main.45067d33.css.map": "/static/css/main.45067d33.css.map",
+    "main.9120d8e2.js.map": "/static/js/main.9120d8e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45067d33.css",
+    "static/js/main.9120d8e2.js"
+  ]
+}
