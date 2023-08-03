@@ -1,15 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './buttonStyles.css';
 
-const ButtonList = ({ projects }) => {
+const ButtonList = ({ items }) => {
   return (
     <ul>
-      {projects.map((project, index) => (
+      {items.map((items, index) => (
         <li key={index}>
-          <a href={project.link} className="button" style={{ backgroundImage: `url(${project.image})` }}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-          </a>
+          {items.link.startsWith('/') ? (
+            // Internal link using react-router-dom's Link
+            <Link to={items.link} className="button" style={{ backgroundImage: `url(${items.image})` }}>
+              <h3>{items.title}</h3>
+              <p>{items.description}</p>
+            </Link>
+          ) : (
+            // External link using anchor tag
+            <a href={items.link} className="button" style={{ backgroundImage: `url(${items.image})` }}>
+              <h3>{items.title}</h3>
+              <p>{items.description}</p>
+            </a>
+          )}
         </li>
       ))}
     </ul>

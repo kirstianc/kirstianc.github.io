@@ -20,13 +20,13 @@ const Header = () => {
 
         {/* dropdown menu */}
         <ul className={isMenuOpen ? 'header_ul menu-open' : 'header_ul'}>
-          <li><Link to="/Home">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/Projects">Projects</Link></li>
           <li><Link to="/Contact">Contact</Link></li>
         </ul>
       </nav>
 
-      <h1><Link to="/Home">Computer Science Major at San Jose State University | Ian Chavez</Link></h1>
+      <h1><Link to="/">Computer Science Major at San Jose State University | Ian Chavez</Link></h1>
 
     </header>
   );
