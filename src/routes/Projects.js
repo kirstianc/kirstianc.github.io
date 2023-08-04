@@ -1,8 +1,8 @@
 import React from 'react';
 import ButtonList from '../components/ButtonList';
 import projBlankImage from '../assets/images/gray.png';
-import proj1Image from '../assets/images/fillboard.png';
-import proj2Image from '../assets/images/ultra_jump_mania.png';
+import proj1Image from '../assets/images/project_images/fillboard.png';
+import proj2Image from '../assets/images/project_images/ultra_jump_mania.png';
 
 const Projects = () => {
   const items = [
