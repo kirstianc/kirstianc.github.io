@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonList from '../components/ButtonList';
 import BlankImage from '../assets/images/gray.png';
-import FillboardImage from '../assets/images/project_images/Fillboard.png';
+import FillboardImage from '../assets/images/project_images/fillboard.png';
 import UJMImage from '../assets/images/project_images/UJM.png';
 import DynamicWikiImage from '../assets/images/project_images/DynamicWiki.png';
 
@@ -41,7 +41,7 @@ const Projects = () => {
 
   return (
     <div>
-      <h2>Project Links:</h2>
+      <h2 style={{ fontFamily: 'Inter' }}>Project Links:</h2>
       <ButtonList items={items} />
     </div>
   );

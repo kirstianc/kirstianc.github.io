@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Courtesy of Dan Abramov
+https://stackoverflow.com/questions/41676054/how-to-add-fonts-to-create-react-app-based-projects
+*/
+@font-face { 
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Inter/Inter-VariableFont_slnt,wght.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}

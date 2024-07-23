@@ -15,6 +15,8 @@ const Header = () => {
   return (
     <header>
       <nav>
+        <h1><Link to="/">Ian Chavez | BS Comp Sci </Link></h1>
+
         {/* animated menu on top of screen */}
         <MenuBar onClick={toggleMenu} isMenuOpen={isMenuOpen} />
 
@@ -26,7 +28,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <h1><Link to="/">Computer Science Major at San Jose State University | Ian Chavez</Link></h1>
+      
 
     </header>
   );
